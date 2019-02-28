@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- title bar -->
+    <dimen name="title_bar_button_width">36dp</dimen>
+    <dimen name="title_bar_button_height">36dp</dimen>
+
+    <!-- day -->
+    <dimen name="day_circle_width">24dp</dimen>
+    <dimen name="day_circle_height">24dp</dimen>
+    <dimen name="day_circle_radius">120dp</dimen>
+    <dimen name="day_circle_stroke_width">1dp</dimen>
+    <dimen name="day_event_underlined">3dp</dimen>
+
+    <!-- EventPublication -->
+    <dimen name="event_buttons_inner_margin">8dp</dimen>
+    <dimen name="event_buttons_outer_margin">17dp</dimen>
+    <dimen name="text_buttons_margin_start">8dp</dimen>
+    <dimen name="date_event_text_size">16dp</dimen>
+    <dimen name="date_event_outer_margin">8dp</dimen>
+    <dimen name="title_event_inner_margin">4dp</dimen>
+    <dimen name="title_event_outer_margin">8dp</dimen>
+    <dimen name="principal_title_event_size">18sp</dimen>
+    <dimen name="secondary_title_event_size">13sp</dimen>
+    <dimen name="all_information_event_margin">8dp</dimen>
+    <dimen name="separator_margin">8dp</dimen>
+    <dimen name="card_event_margins">10dp</dimen>
+
+</resources>

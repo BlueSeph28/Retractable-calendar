@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:id="@+id/event_layout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/card_event_margins"
+        android:layout_marginTop="@dimen/card_event_margins"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/card_separator1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/divider"
+            app:srcCompat="@drawable/divider"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/all_information_event_margin"
+                android:layout_marginEnd="@dimen/all_information_event_margin"
+                android:layout_weight="4.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/title_principal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollHorizontally="true"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:layout_marginBottom="@dimen/title_event_inner_margin"
+                    android:layout_marginTop="@dimen/title_event_outer_margin"
+                    android:text="Acuario Michin"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/principal_title_event_size" />
+
+                <TextView
+                    android:id="@+id/title_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollHorizontally="true"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="@color/text_color"
+                    android:layout_marginBottom="@dimen/title_event_outer_margin"
+                    android:layout_marginTop="@dimen/title_event_inner_margin"
+                    android:text="Guadalajara, Jalisco"
+                    android:textSize="@dimen/secondary_title_event_size" />
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/event_date"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5">
+
+                <TextView
+                    android:id="@+id/day_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/date_event_outer_margin"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center"
+                    android:textSize="@dimen/date_event_text_size"
+                    android:textColor="@color/text_color"
+                    android:text="3"
+                    />
+
+                <TextView
+                    android:id="@+id/month_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/date_event_outer_margin"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center"
+                    android:textSize="@dimen/date_event_text_size"
+                    android:text="Abril"
+                    android:textColor="@color/text_color"
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image_separator1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:src="@drawable/divider"
+            app:srcCompat="@drawable/divider" />
+
+        <ImageView
+            android:id="@+id/event_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/placeholder" />
+
+        <ImageView
+            android:id="@+id/image_separator2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:src="@drawable/divider"
+            app:srcCompat="@drawable/divider" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/all_information_event_margin"
+            android:layout_marginStart="@dimen/all_information_event_margin"
+            android:layout_marginBottom="@dimen/title_event_inner_margin"
+            android:layout_marginTop="@dimen/title_event_outer_margin"
+            android:textSize="@dimen/principal_title_event_size"
+            android:textColor="@color/text_color"
+            android:text="Viernes 9:00 am · Acuario Michin Oficial. Av. Alcalde 2695"
+            />
+
+        <TextView
+            android:id="@+id/information"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/all_information_event_margin"
+            android:layout_marginStart="@dimen/all_information_event_margin"
+            android:layout_marginBottom="@dimen/title_event_outer_margin"
+            android:layout_marginTop="@dimen/title_event_inner_margin"
+            android:textSize="@dimen/secondary_title_event_size"
+            android:textColor="@color/text_color"
+            android:text="300 personas interesadas"
+            />
+
+        <ImageView
+            android:id="@+id/notification_separator"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="@dimen/separator_margin"
+            android:src="@drawable/divider"
+            app:srcCompat="@drawable/divider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:layout_marginBottom="@dimen/separator_margin">
+
+            <RelativeLayout
+                android:id="@+id/details_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_marginStart="@dimen/event_buttons_outer_margin"
+                android:layout_marginEnd="@dimen/event_buttons_inner_margin">
+
+                <ImageView
+                    android:id="@+id/details_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_navigate_next_black"
+                    />
+
+                <TextView
+                    android:id="@+id/details_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="false"
+                    android:layout_marginStart="@dimen/text_buttons_margin_start"
+                    android:layout_toEndOf="@id/details_image"
+                    android:text="Ir a la publicación"
+                    android:textColor="@color/text_color"
+                    android:layout_centerInParent="true"
+                    />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/share_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_marginStart="@dimen/event_buttons_inner_margin"
+                android:layout_marginEnd="@dimen/event_buttons_outer_margin">
+
+                <ImageView
+                    android:id="@+id/share_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_navigate_next_black"
+                    />
+
+                <TextView
+                    android:id="@+id/share_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Compartir"
+                    android:layout_toEndOf="@id/share_image"
+                    android:layout_marginStart="@dimen/text_buttons_margin_start"
+                    android:textColor="@color/text_color"
+                    android:layout_centerInParent="true"
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/card_separator2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/divider"
+            app:srcCompat="@drawable/divider"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

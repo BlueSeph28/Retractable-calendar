@@ -1,0 +1,39 @@
+<resources>
+
+    <string name="app_name">Calendario Flexible</string>
+
+    <string name="monday">LUN</string>
+    <string name="tuesday">MAR</string>
+    <string name="wednesday">MIE</string>
+    <string name="thursday">JUE</string>
+    <string name="friday">VIE</string>
+    <string name="saturday">SAB</string>
+    <string name="sunday">DOM</string>
+
+    <string name="january">Enero</string>
+    <string name="february">Febrero</string>
+    <string name="march">Marzo</string>
+    <string name="april">Abril</string>
+    <string name="may">Mayo</string>
+    <string name="june">Junio</string>
+    <string name="july">Julio</string>
+    <string name="august">Agosto</string>
+    <string name="september">Septiembre</string>
+    <string name="october">Octubre</string>
+    <string name="november">Noviembre</string>
+    <string name="december">Diciembre</string>
+
+    <string name="january_short">Ene</string>
+    <string name="february_short">Feb</string>
+    <string name="march_short">Mar</string>
+    <string name="april_short">Abr</string>
+    <string name="may_short">May</string>
+    <string name="june_short">Jun</string>
+    <string name="july_short">Jul</string>
+    <string name="august_short">Ago</string>
+    <string name="september_short">Sep</string>
+    <string name="october_short">Oct</string>
+    <string name="november_short">Nov</string>
+    <string name="december_short">Dic</string>
+
+</resources>
