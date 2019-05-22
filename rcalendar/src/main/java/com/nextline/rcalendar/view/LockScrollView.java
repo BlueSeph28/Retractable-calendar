@@ -7,9 +7,6 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.widget.ScrollView;
 
-/**
- * Created by azurechen on 7/31/15.
- */
 public class LockScrollView extends NestedScrollView {
     public LockScrollView(Context context) {
         super(context);

@@ -21,9 +21,7 @@ import com.nextline.rcalendar.R;
 import com.nextline.rcalendar.data.Day;
 import com.nextline.rcalendar.view.LockScrollView;
 
-/**
- * Created by AzureChen on 15/8/9.
- */
+
 public abstract class UICalendar extends LinearLayout {
 
     // Style

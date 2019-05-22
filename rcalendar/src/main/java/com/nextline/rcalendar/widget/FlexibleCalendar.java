@@ -30,10 +30,6 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-/**
- * Created by azurechen on 7/29/15.
- */
-
 public class FlexibleCalendar extends UICalendar {
 
     private CalendarAdapter mAdapter;
